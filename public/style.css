@@ -23,7 +23,11 @@ h1 {
   flex-direction: row;
 }
 
-
+.box {
+  display: flex;
+  align-items: center;
+  margin: 35px;
+}
 
 .btn {
   border: black;
