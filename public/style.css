@@ -104,7 +104,7 @@ p {
   border-left: 1px solid gray;
 }
 
-#but {
+#reset {
   box-sizing: border-box;
   text-align: center;
   border-color: black;
@@ -112,8 +112,17 @@ p {
   cursor: default;
 }
 
-#but:hover {
+#reset:hover {
   color: white;
   background-color: black;
-  transition: ;
+  transition: ease-in-out;
 }
+
+#result {
+  background-color: transparent white;
+  border: black;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+}
+
